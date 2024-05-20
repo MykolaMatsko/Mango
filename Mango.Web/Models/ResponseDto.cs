@@ -1,4 +1,5 @@
 ﻿namespace Mango.Web.Models
+{ 
 	public class ResponseDto
 	{
         public object? Result { get; set; }
