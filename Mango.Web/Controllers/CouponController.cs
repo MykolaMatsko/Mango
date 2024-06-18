@@ -68,7 +68,7 @@ namespace Mango.Web.Controllers
                 return RedirectToAction(nameof(CouponIndex));
             }
 
-            return NotFound();
+            return View(couponDto);
         }
     }
 }
