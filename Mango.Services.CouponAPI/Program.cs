@@ -56,7 +56,7 @@ namespace Mango.Services.CouponAPI
 						_db.Database.Migrate();
 					}
 				}
-		}
+			}
 
 		}
 	}
